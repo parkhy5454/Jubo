@@ -18,7 +18,3 @@ export const validateFile=(f:File)=>{
   if(f.size>MAX_FILE_SIZE) return {ok:false,reason:'10MB 이하'}
   return {ok:true}
 }
-export async function verifyAdmin(client:any){
-  const {data}=await client.rpc('is_admin')
-  return !!data
-}
