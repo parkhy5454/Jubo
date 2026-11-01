@@ -1,5 +1,5 @@
 {
-  "name": "church-app-neon-final",
+  "name": "church-app-final-original",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,9 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "@neondatabase/serverless": "0.9.4",
-    "dompurify": "3.1.6"
+    "dompurify": "3.1.6",
+    "typescript": "5.5.4",
+    "@types/react": "18.3.3",
+    "@types/node": "20.14.12"
   }
 }
